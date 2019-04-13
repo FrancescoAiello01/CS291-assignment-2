@@ -19,9 +19,15 @@
 a {
 	color: orange;
 	font-size: 1.5em;
-	padding: 5%;
 }
 
 a:hover {
 	color: fuchsia;
+}
+
+html {
+	background: url('../images/crossline-lines.png');
+	background-position: center;
+	background-repeat: repeat;
+	height: 100%;
 }
