@@ -50,3 +50,11 @@ footer {
 #body-container {
 	
 }
+
+#page-header {
+	vertical-align: top;
+	font-family: Arial;
+	letter-spacing: 4px;
+	line-height: 0;
+	color: #b9e3ad;
+}
