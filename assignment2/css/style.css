@@ -31,3 +31,22 @@ html {
 	background-repeat: repeat;
 	height: 100%;
 }
+
+footer {
+	margin-top: 6%;
+	background-color: #c5c5c5;
+	text-align: center;
+	border: 25px solid #c5c5c5;
+}
+
+#main-body {
+	width: 80%;
+	margin: -4% auto;
+	border: medium solid #c5c5c5;
+	box-shadow: 0 0 5px;
+	position: relative;
+}
+
+#body-container {
+	
+}
