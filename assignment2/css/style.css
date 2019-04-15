@@ -3,7 +3,7 @@
 	text-align: center;
 	color: white;
 }
-
+a
 #nav-link {
 	position: absolute;
 	top: 50%;
@@ -17,6 +17,7 @@
 }
 
 a {
+	padding: 5%;
 	color: orange;
 	font-size: 1.5em;
 }
@@ -25,18 +26,13 @@ a:hover {
 	color: fuchsia;
 }
 
-html {
-	background: url('../images/crossline-lines.png');
-	background-position: center;
-	background-repeat: repeat;
-	height: 100%;
-}
-
 footer {
+	position:fixed;
+	width: 100%;
+	bottom:0;
 	margin-top: 6%;
 	background-color: #c5c5c5;
 	text-align: center;
-	border: 25px solid #c5c5c5;
 }
 
 #main-body {
@@ -44,12 +40,10 @@ footer {
 	margin: -4% auto;
 	border: medium solid #c5c5c5;
 	box-shadow: 0 0 5px;
-	position: relative;
+	position:relative;
+	top: 130px;
 }
 
-#body-container {
-	
-}
 
 #page-header {
 	vertical-align: top;
@@ -58,3 +52,17 @@ footer {
 	line-height: 0;
 	color: #b9e3ad;
 }
+
+#article-picture {
+	max-width:50%;
+	height:auto;
+	float:left;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+ul{
+	list-style-image:url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
+	list-style-position: inside
+}
+
