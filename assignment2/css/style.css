@@ -32,9 +32,8 @@ a:hover {
 }
 
 footer {
-	position: fixed;
-	width: 100%;
-	bottom: 0;
+	margin-top: 350px;
+	padding: 5px;
 	background-color: #c5c5c5;
 	text-align: center;
 }
@@ -46,12 +45,11 @@ footer {
 	border-left: medium solid #c5c5c5;
 	border-right: medium solid #c5c5c5;
 	box-shadow: 0 0 5px;
-	position:relative;
+	position: relative;
 	top: 130px;
 	background-color: rgba(0, 0, 0, 0.04);
 	padding: 10px;
 }
-
 
 #page-header {
 	vertical-align: top;
@@ -62,9 +60,9 @@ footer {
 }
 
 #article-picture {
-	max-width:50%;
-	height:auto;
-	float:left;
+	max-width: 50%;
+	height: auto;
+	float: left;
 	border-style: solid;
 	margin: 1%;
 	box-shadow: 0 0 8px rgba(74, 114, 15, 0.88);
@@ -72,8 +70,8 @@ footer {
 	border-color: olive;
 }
 
-ul{
-	list-style-image:url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
+ul {
+	list-style-image: url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
 	list-style-position: inside
 }
 
