@@ -31,10 +31,9 @@ a:hover {
 }
 
 footer {
-	position:fixed;
+	position: fixed;
 	width: 100%;
-	bottom:0;
-	margin-top: 6%;
+	bottom: 0;
 	background-color: #c5c5c5;
 	text-align: center;
 }
@@ -42,10 +41,14 @@ footer {
 #main-body {
 	width: 80%;
 	margin: -15% auto;
-	border: medium solid #c5c5c5;
+	border-bottom: medium solid #c5c5c5;
+	border-left: medium solid #c5c5c5;
+	border-right: medium solid #c5c5c5;
 	box-shadow: 0 0 5px;
 	position:relative;
 	top: 130px;
+	background-color: rgba(0, 0, 0, 0.04);
+	padding: 10px;
 }
 
 
