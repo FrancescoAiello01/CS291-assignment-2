@@ -41,7 +41,7 @@ footer {
 
 #main-body {
 	width: 80%;
-	margin-top: -200px;
+	margin: -180px auto;
 	border-bottom: medium solid #c5c5c5;
 	border-left: medium solid #c5c5c5;
 	border-right: medium solid #c5c5c5;
