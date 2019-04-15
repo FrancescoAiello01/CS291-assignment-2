@@ -13,6 +13,7 @@ html {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -85%);
+	z-index: 1;
 }
 
 #nav-banner {
@@ -40,7 +41,7 @@ footer {
 
 #main-body {
 	width: 80%;
-	margin: -15% auto;
+	margin-top: -200px;
 	border-bottom: medium solid #c5c5c5;
 	border-left: medium solid #c5c5c5;
 	border-right: medium solid #c5c5c5;
