@@ -3,12 +3,12 @@
 	text-align: center;
 	color: white;
 }
-a
+
 #nav-link {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-30%, -85%);
+	transform: translate(-50%, -85%);
 }
 
 #nav-banner {
@@ -37,7 +37,7 @@ footer {
 
 #main-body {
 	width: 80%;
-	margin: -4% auto;
+	margin: -15% auto;
 	border: medium solid #c5c5c5;
 	box-shadow: 0 0 5px;
 	position:relative;
