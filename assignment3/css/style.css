@@ -1,81 +1,80 @@
 html {
-	background-image: url("../images/crossline-lines.png");
+    background-image: url("../images/crossline-lines.png");
 }
 
 #header-image-container {
-	position: relative;;
-	text-align: center;
-	color: white;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 #nav-link {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -85%);
-	z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    z-index: 1;
 }
 
 #nav-banner {
-	height: 130px;
-	width: 100%;
+    height: 130px;
+    width: 100%;
 }
 
 a {
-	padding: 5%;
-	color: orange;
-	font-size: 1.5em;
+    padding: 5%;
+    color: orange;
+    font-size: 1.5em;
 }
 
 a:hover {
-	color: fuchsia;
+    color: fuchsia;
 }
 
 footer {
-	margin-top: 350px;
-	padding: 5px;
-	background-color: #c5c5c5;
-	text-align: center;
+    margin-top: 350px;
+    padding: 5px;
+    background-color: #c5c5c5;
+    text-align: center;
 }
 
 #main-body {
-	width: 80%;
-	margin: -180px auto;
-	border-bottom: medium solid #c5c5c5;
-	border-left: medium solid #c5c5c5;
-	border-right: medium solid #c5c5c5;
-	box-shadow: 0 0 5px;
-	position: relative;
-	top: 130px;
-	background-color: rgba(0, 0, 0, 0.04);
-	padding: 10px;
+    width: 80%;
+    margin: -180px auto;
+    border-bottom: medium solid #c5c5c5;
+    border-left: medium solid #c5c5c5;
+    border-right: medium solid #c5c5c5;
+    box-shadow: 0 0 5px;
+    position: relative;
+    top: 130px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 10px;
 }
 
 #page-header {
-	vertical-align: top;
-	font-family: Arial;
-	letter-spacing: 4px;
-	line-height: 0;
-	color: #b9e3ad;
+    vertical-align: top;
+    font-family: Arial;
+    letter-spacing: 4px;
+    line-height: 0;
+    color: #b9e3ad;
 }
 
 #article-picture {
-	max-width: 50%;
-	height: auto;
-	float: left;
-	border-style: solid;
-	margin: 1%;
-	box-shadow: 0 0 8px rgba(74, 114, 15, 0.88);
-	border-radius: 5%;
-	border-color: olive;
+    max-width: 50%;
+    height: auto;
+    float: left;
+    border-style: solid;
+    margin: 1%;
+    box-shadow: 0 0 8px rgba(74, 114, 15, 0.88);
+    border-radius: 5%;
+    border-color: olive;
 }
 
 ul {
-	list-style-image: url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
-	list-style-position: inside
+    list-style-image: url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
+    list-style-position: inside
 }
 
 #body-container {
-	margin-top: 5%;
+    margin-top: 5%;
 }
-
