@@ -21,3 +21,17 @@ function nextImage() {
         document.getElementById("article-picture").src = images[x];
     }
 }
+
+function toggleDropdown() {
+    document.getElementById("dropdown").classList.toggle("show");
+}
+
+//close dropdown if user clicks outside of it
+window.onclick = fucntion(e) {
+    if (!e.target.matches("nav-link")) {
+        var dropdown = document.getElementById("dropdown");
+        if (dropdown.classList.contains("show")) {
+            dropdown.classList.remove("show");
+        }
+    }
+}
