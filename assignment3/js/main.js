@@ -27,11 +27,11 @@ function toggleDropdown() {
 }
 
 //close dropdown if user clicks outside of it
-window.onclick = fucntion(e) {
-    if (!e.target.matches("nav-link")) {
-        var dropdown = document.getElementById("dropdown");
-        if (dropdown.classList.contains("show")) {
-            dropdown.classList.remove("show");
-        }
-    }
-}
+// window.onclick = fucntion(e) {
+//     if (!e.target.matches("nav-link")) {
+//         var dropdown = document.getElementById("dropdown");
+//         if (dropdown.classList.contains("show")) {
+//             dropdown.classList.remove("show");
+//         }
+//     }
+// }
