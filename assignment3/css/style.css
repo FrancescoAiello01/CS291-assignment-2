@@ -14,15 +14,15 @@ html {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
     display: inline;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 li:last-child {
