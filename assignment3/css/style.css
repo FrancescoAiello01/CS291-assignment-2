@@ -20,27 +20,9 @@ ul {
     overflow: hidden;
 }
 
-li {
-    display: inline;
-    margin-right: 20px;
-}
-
-li:last-child {
-    margin-right: 0px;
-}
-
 #nav-banner {
     height: 130px;
     width: 100%;
-}
-
-a {
-    color: orange;
-    font-size: 1.5em;
-}
-
-a:hover {
-    color: fuchsia;
 }
 
 footer {
@@ -92,28 +74,26 @@ footer {
 }
 
 
-/* New Styles for Dropdown */
+/* ----- DROPDOWN STYLES ----- */
 
 /* Dropdown Button */
 .dropbtn {
-    position:  none;
     text-decoration-color: white;
     font-size: 16px;
     border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
+    position: relative;
     display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    position: none;
+    position: absolute;
     display: none;
     background-color: white;
-    min-width: 160px;
-    z-index: 1;
+    min-width: 50px;
 }
 
 /* Links inside the dropdown */
@@ -123,7 +103,6 @@ footer {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
@@ -135,5 +114,5 @@ footer {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #ddd;
 }
