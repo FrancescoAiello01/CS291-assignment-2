@@ -21,3 +21,16 @@ function nextImage() {
         document.getElementById("article-picture").src = images[x];
     }
 }
+
+function disappear(){
+	var off=document.getElementsByClassName('li');
+	var thing = 1;
+		off[thing].display = "none";
+}
+
+var ele = document.getElementsByClassName("xbutton");
+var elenum = ele.length;
+//for(var i = 0; i < elenum; i++){
+//	ele[i].addEventListener("click",disappear(), false)
+//}
+ele[1].addEventListener('blur', alert("you did something"), false)

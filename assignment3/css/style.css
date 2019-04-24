@@ -64,10 +64,7 @@ footer {
     border-color: olive;
 }
 
-#list {
-    list-style-image: url('https://mdn.mozillademos.org/files/11981/starsolid.gif');
-    list-style-position: inside
-}
+
 
 #body-container {
     margin-top: 5%;
@@ -115,4 +112,40 @@ footer {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #ddd;
+}
+
+.container{
+    height: 250px;
+    width: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,121,9,1) 79%, rgba(20,130,255,1) 100%);
+    margin: 5px;
+    overflow: auto;
+    display: inline-block;
+    position: relative;
+    align-self: left;
+}
+ul{
+    margin-top: 80px;
+}
+li{
+    overflow: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+
+}
+
+li p{
+    color: white;
+}
+
+.xbutton{
+    text-align: right;
+    padding: 5px;
+}
+
+li img{
+    display: block;
+    margin:auto;
 }
