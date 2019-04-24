@@ -22,15 +22,93 @@ function nextImage() {
     }
 }
 
-function disappear(){
-	var off=document.getElementsByClassName('li');
-	var thing = 1;
-		off[thing].display = "none";
+
+//tried to do this in a loop, but strings tripped me up
+var clearing = document.getElementById("clear");
+clearing.onclick = function(){
+	var thingy = document.getElementById("container1").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container2").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container3").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container4").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container5").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container6").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container7").style;
+	thingy.display = "none";
+	var thingy = document.getElementById("container8").style;
+	thingy.display = "none";
+}
+var resetting = document.getElementById("reset");
+resetting.onclick = function(){
+	var thingy = document.getElementById("container1").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container2").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container3").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container4").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container5").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container6").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container7").style;
+	thingy.display = "block";
+	var thingy = document.getElementById("container8").style;
+	thingy.display = "block";
 }
 
-var ele = document.getElementsByClassName("xbutton");
-var elenum = ele.length;
-//for(var i = 0; i < elenum; i++){
-//	ele[i].addEventListener("click",disappear(), false)
-//}
-ele[1].addEventListener('blur', alert("you did something"), false)
+var ele1 = document.getElementById("box1");
+var ele2 = document.getElementById("box2");
+var ele3 = document.getElementById("box3");
+var ele4 = document.getElementById("box4");
+var ele5 = document.getElementById("box5");
+var ele6 = document.getElementById("box6");
+var ele7 = document.getElementById("box7");
+var ele8 = document.getElementById("box8");
+ele1.onclick = function(){
+	var thingy = document.getElementById("container1").style;
+	thingy.display = "none";
+
+}
+ele2.onclick = function(){
+	var thingy = document.getElementById("container2").style;
+	thingy.display = "none";
+
+}
+ele3.onclick = function(){
+	var thingy = document.getElementById("container3").style;
+	thingy.display = "none";
+
+}
+ele4.onclick = function(){
+	var thingy = document.getElementById("container4").style;
+	thingy.display = "none";
+
+}
+ele5.onclick = function(){
+	var thingy = document.getElementById("container5").style;
+	thingy.display = "none";
+
+}
+ele6.onclick = function(){
+	var thingy = document.getElementById("container6").style;
+	thingy.display = "none";
+
+}
+ele7.onclick = function(){
+	var thingy = document.getElementById("container7").style;
+	thingy.display = "none";
+
+}
+ele8.onclick = function(){
+	var thingy = document.getElementById("container8").style;
+	thingy.display = "none";
+
+}
+
