@@ -75,25 +75,23 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
+    margin-top: 50%;
     text-decoration-color: white;
     font-size: 16px;
     border: none;
 }
 
 .dropdown {
-    position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content */
 .dropdown-content {
-    position: absolute;
-    display: none;
+    visibility: hidden;
     background-color: white;
     min-width: 50px;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     text-decoration: none;
@@ -104,15 +102,15 @@ footer {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+    visibility: visible;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #ddd;
 }
+
+/* ----- END DROPDOWN STYLES */
 
 .container{
     height: 250px;
@@ -125,15 +123,12 @@ footer {
     position: relative;
     align-self: left;
 }
-ul{
-    margin-top: 80px;
-}
+
 li{
     overflow: auto;
     display: inline-block;
     position: relative;
     float: left;
-
 }
 
 li p{
