@@ -1,0 +1,153 @@
+html {
+  background-image: url("../images/crossline-lines.png");
+}
+
+#header-image-container {
+  background: url("../images/header.jpg") bottom center no-repeat;
+  padding-top: 50px;
+  height: 100px;
+  text-align: center;
+}
+
+#nav-link {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav-banner {
+  height: 130px;
+  width: 100%;
+}
+
+footer {
+  margin-top: 350px;
+  padding: 5px;
+  background-color: #c5c5c5;
+  text-align: center;
+}
+
+#main-body {
+  width: 80%;
+  margin: -180px auto;
+  border-bottom: medium solid #c5c5c5;
+  border-left: medium solid #c5c5c5;
+  border-right: medium solid #c5c5c5;
+  box-shadow: 0 0 5px;
+  position: relative;
+  top: 130px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 10px;
+}
+
+#page-header {
+  vertical-align: top;
+  font-family: Arial;
+  letter-spacing: 4px;
+  line-height: 0;
+  color: #b9e3ad;
+}
+
+#article-picture {
+  max-width: 50%;
+  height: auto;
+  float: left;
+  border-style: solid;
+  margin: 1%;
+  box-shadow: 0 0 8px rgba(74, 114, 15, 0.88);
+  border-radius: 5%;
+  border-color: olive;
+}
+
+#body-container {
+  margin-top: 5%;
+}
+
+/* ----- DROPDOWN STYLES ----- */
+
+/* Dropdown Button */
+.dropbtn {
+  text-decoration-color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* margin-top: 60px; margin-bottom: 30px; */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+/* ----- END DROPDOWN STYLES */
+
+.container {
+  height: 250px;
+  width: 250px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(13, 121, 9, 1) 79%,
+    rgba(20, 130, 255, 1) 100%
+  );
+  margin: 5px;
+  overflow: auto;
+  display: inline-block;
+  position: relative;
+  align-self: left;
+}
+
+li {
+  overflow: auto;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+
+li p {
+  color: white;
+}
+
+.xbutton {
+  text-align: right;
+  padding: 5px;
+}
+
+li img {
+  display: block;
+  margin: auto;
+}
