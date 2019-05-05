@@ -5,10 +5,6 @@ images[1] = "images/image2.jpg";
 images[2] = "images/image3.jpg";
 images[3] = "images/image4.jpg";
 
-function listenForDoubleClick(element) {
-  element.contentEditable = true;
-}
-
 $("#body-text, #body-text-2").dblclick(function() {
   $(this).attr("contenteditable", "true");
 });
