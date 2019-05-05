@@ -3,6 +3,11 @@
   <head>
     <title>assignment-3: Francesco Aiello and Taylor Slye</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <header>
     <div id="header-image-container">
@@ -38,15 +43,12 @@
     </div>
   </header>
 
-  <body onload="startTimer()">
+  <body>
     <div id="main-body">
       <div id="page-header"><h1>Oregon Oregon Oregon</h1></div>
       <div id="body-container"></div>
       <img src="images/image1.jpg" id="article-picture" alt="mountain" />
-      <p
-        onclick="listenForDoubleClick(this);"
-        onblur="this.contentEditable=false;"
-      >
+      <p id="body-text">
         &emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ut sem
         viverra aliquet eget sit amet tellus cras. Sed risus ultricies tristique
@@ -68,10 +70,7 @@
         ipsum suspendisse ultrices gravida dictum fusce ut. Integer vitae justo
         eget magna fermentum iaculis.
       </p>
-      <p
-        onclick="listenForDoubleClick(this);"
-        onblur="this.contentEditable=false;"
-      >
+      <p id="body-text-2">
         Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Venenatis
         lectus magna fringilla urna porttitor rhoncus dolor purus non. Ut
         venenatis tellus in metus vulputate. Metus vulputate eu scelerisque
@@ -148,7 +147,7 @@
     </div>
   </body>
   <footer>
-    <div>Created by Francesco Aiello and Taylor Slye for assignment 3</div>
+    <div>Created by Francesco Aiello and Taylor Slye for assignment 4</div>
   </footer>
   <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </html>
