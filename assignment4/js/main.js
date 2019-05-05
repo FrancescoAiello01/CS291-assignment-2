@@ -16,10 +16,10 @@ $(document).ready(function() {
 function nextImage() {
   if (x <= 2) {
     ++x;
-    document.getElementById("article-picture").src = images[x];
+    $("#article-picture").attr("src", images[x]);
   } else {
     x = 0;
-    document.getElementById("article-picture").src = images[x];
+    $("#article-picture").attr("src", images[x]);
   }
 }
 
