@@ -5,9 +5,13 @@ images[1] = "images/image2.jpg";
 images[2] = "images/image3.jpg";
 images[3] = "images/image4.jpg";
 
+// Editable Text
+
 $("#body-text, #body-text-2").dblclick(function() {
   $(this).attr("contenteditable", "true");
 });
+
+// Carousel
 
 $(document).ready(function() {
   setInterval(nextImage, 3000);
@@ -22,6 +26,8 @@ function nextImage() {
     $("#article-picture").attr("src", images[x]);
   }
 }
+
+// Tiles
 
 $(".xbutton").click(function() {
   $(this)
