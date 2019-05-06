@@ -23,7 +23,24 @@ function nextImage() {
   }
 }
 
+
+$(".xbutton").click(function(){
+  $(this).parent().hide();
+});
+
+$("#clear").click(function(){
+  for(var i = 0; i < 9; i++){
+    $("#container" + i).hide();
+  }
+});
+$("#reset").click(function(){
+  for(var i = 0; i < 9; i++){
+    $("#container" + i).show();
+  }
+  $(".container").show();
+});
 //tried to do this in a loop, but strings tripped me up
+/*
 var clearing = document.getElementById("clear");
 clearing.onclick = function() {
   var thingy = document.getElementById("container1").style;
@@ -103,3 +120,4 @@ ele8.onclick = function() {
   var thingy = document.getElementById("container8").style;
   thingy.display = "none";
 };
+*/
