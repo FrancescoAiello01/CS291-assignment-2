@@ -156,3 +156,16 @@ li img {
 ul {
   margin-top: 10%;
 }
+
+textarea {
+  display: block;
+  box-sizing: padding-box;
+
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  font-size: 14px;
+  margin: 50px auto;
+  border-radius: 8px;
+  border: 6px solid #556677;
+}

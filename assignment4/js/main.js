@@ -7,8 +7,34 @@ images[3] = "images/image4.jpg";
 
 // Editable Text
 
-$("#body-text, #body-text-2").dblclick(function() {
-  $(this).attr("contenteditable", "true");
+//paragraph 1
+$("#body-text").dblclick(function() {
+  $("#body-textarea").attr("style", "display:block");
+  $("#submit-1").attr("style", "display:block");
+  $(this).attr("style", "display:none");
+});
+
+$("#submit-1").click(function() {
+  $(this).attr("style", "display:none");
+  $("#body-textarea").attr("style", "display:none");
+  var body_text_new = $("#body-textarea").val();
+  $("#body-text").text(body_text_new);
+  $("#body-text").attr("style", "display:block");
+});
+
+//paragaph 2
+$("#body-text-2").dblclick(function() {
+  $("#body-textarea2").attr("style", "display:block");
+  $("#submit-2").attr("style", "display:block");
+  $(this).attr("style", "display:none");
+});
+
+$("#submit-2").click(function() {
+  $(this).attr("style", "display:none");
+  $("#body-textarea2").attr("style", "display:none");
+  var body_text_new = $("#body-textarea2").val();
+  $("#body-text-2").text(body_text_new);
+  $("#body-text-2").attr("style", "display:block");
 });
 
 // Carousel
